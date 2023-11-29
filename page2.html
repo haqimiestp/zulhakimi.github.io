@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Zulhakimi - Portfolio | Page 2</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=League+Spartan:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Brush+Script+MT&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+    <link rel="stylesheet" href="header.html"> <!-- Include the header file -->
+    <style>
+        /* Your existing styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('gigabyte.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        nav {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #DFFF00;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 120px auto 2cm;
+            padding: 20px;
+            background-color: #CCCCFF;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: 'Playfair Display', serif;
+        }
+
+        h2, h3 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            opacity: 0; /* Set initial opacity to 0 */
+            animation: fadeIn 3s ease-in-out forwards; /* Use fadeIn animation */
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #e74c3c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-box {
+            background-color: #40E0D0;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 0.5em 0;
+            background-color: #3498db;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .project-card img {
+            width: 64mm;
+            height: 64mm;
+            display: block;
+            margin: 0 auto;
+            border-radius: 8px;
+            cursor: pointer; /* Add cursor style for the clickable image */
+        }
+
+        /* Add styles for the lightbox overlay */
+        .lightboxOverlay {
+            background: rgba(0, 0, 0, 0.8) !important;
+        }
+
+        /* Additional styles for the lightbox */
+        .lb-image {
+            max-height: 90vh !important;
+            max-width: 90vw !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <div class="project-card">
+            <h3>FoodPanda</h3>
+            <p>Following the completion of my Diploma, I embarked on a rewarding journey with FoodPanda, contributing to the world of food delivery for over 2 and a half years. During this period, unforeseen challenges such as covid-19, particularly the global events from 2019 to 2021, temporarily disrupted my pursuit of a degree.</p>
+            <a href="foodpanda.jpg" data-lightbox="experience">
+                <img src="foodpanda.jpg" alt="FoodPanda Delivery Experience" class="foodpanda-img">
+            </a>
+            <p>Food Delivery</p>
+            <a href="https://www.instagram.com/p/CLD27LRH1I5/" target="_blank">Explore my Journey</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Part-Time Streamer</h3>
+            <p>I am a part-time streamer on multiple platforms such as Facebook and TikTok. It all began when my friends frequently invited me to play games during the night amid the COVID-19 pandemic. I started to question why I was spending so much time playing games without any tangible benefits. That's when the idea struck me – why not start streaming and make some pocket money for myself?</p>
+            <a href="ss.png" data-lightbox="experience">
+                <img src="ss.png" alt="Project 2" class="foodpanda-img">
+            </a>
+            <p>Game Streaming</p>
+            <a href="https://www.tiktok.com/@haqimie35?is_from_webapp=1&sender_device=pc" target="_blank">TikTok Profile</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Diploma FYP</h3>
+            <p>During my diploma in Civil Engineering, I undertook the final year project (FYP) that holds a special place in my academic journey. It was a challenging yet memorable experience. Fulfilling all the panel's requests was not an easy task, but with determination and hard work, I successfully achieved an "A" grade in the final year project.</p>
+            <a href="fyp.jpg" data-lightbox="experience">
+                <img src="fyp.jpg" alt="Project 3" class="foodpanda-img">
+            </a>
+            <p>Memories of FYP</p>
+            <a href="https://www.instagram.com/p/B2A5dqrHRk4/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank">My FYP</a>
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact-box">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <!-- Form fields go here -->
+            <button type="submit">Submit</button>
+        </form>
+        <ul>
+            <li>Email: <a href="mailto:hakimbro909@gmail.com">hakimbro909@gmail.com</a></li>
+            <li>Tiktok: <a href="https://www.tiktok.com/@haqimie35?is_from_webapp=1&sender_device=pc">QimieXG</a></li>
+            <li>Discord: <a href="https://discord.gg/bneyUCU2Wr">QimieXG Discord Server</a></li>
+            <li>SocioBuzz: <a href="https://sociabuzz.com/haqimiestp/donate">Donation</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Muhammad Zulhakimi Bin Zulkiffle</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+</body>
+
+</html>
